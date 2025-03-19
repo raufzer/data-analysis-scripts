@@ -6,7 +6,7 @@ analyze Netflix movies released between 1990 and 1999, focusing on trends in mov
 - To identify trends in movie duration and genre popularity.
 
 ## Data Source:
-- Netflix Movies Dataset (Link)
+- Netflix Movies Dataset (netflix_data.csv)
 
 ## Methodology:
 
@@ -27,14 +27,7 @@ Check scripts.py file.
 here is another method:
 make a subset again from the one with genre Action but with condition then just count their len which is count 'number' of movies etc ..
 
-// Code  //
-short_action_movies = action_movies[action_movies['duration'] < 90]
-short_movie_count = len(short_action_movies)
 
 ## Findings:
 - **Most Common Duration:** 2 hours.
 - **Number of Short Action Movies:** 7.
-
-## Next Steps:
-- **Visualizations:** Coming soon.
-- **Conclusions & Future Work:** To be determined based on further insights.
