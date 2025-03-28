@@ -20,7 +20,7 @@ analyze Netflix movies released between 1990 and 1999, focusing on trends in mov
 - Counted the number of action movies with a duration of less than 90 minutes.
 
 ## Code Explain:
-Check scripts.py file.
+Check scripts.ipynb file.
 1. Creating a subset of the main dataframe by using new variable contains only rows with specific conditions (when you want to compare a column values you need to compare it with serie 'one-dimensional array' not dataframe 'two-dimensional labeled data structure')
 2. Converting my subset dataframe into a list with function .tolist() (1D array serie to list) then use pre-defiend function counter from collections package
 3. Make another subset of my dataframe (the prevoius one with movies realesed in 90s) which is movies with genre Action than iterating it with loops (you need to use iterrows.() function and row,lab indexs) than compare each value of the current row with 90 min if condition is successed i add it to my count list
